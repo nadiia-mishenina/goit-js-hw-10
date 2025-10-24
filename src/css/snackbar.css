@@ -1,0 +1,82 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+}
+
+input[type='number'] {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input[type='number']:focus {
+  border-color: #4e75ff;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+legend {
+  font-weight: 600;
+  color: #444;
+  padding: 0 5px;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+button[type='submit'] {
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #3d5ce4;
+}
+
+button[type='submit']:active {
+  background-color: #2e47c4;
+}
